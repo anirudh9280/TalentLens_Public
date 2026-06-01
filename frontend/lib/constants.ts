@@ -1,0 +1,38 @@
+/** Skill chips for filters (aligned with backend SKILL_SUGGESTIONS) */
+export const SKILL_FILTER_OPTIONS = [
+  "Python",
+  "Machine Learning",
+  "Data Science",
+  "NLP",
+  "SQL",
+  "React",
+  "Computer Vision",
+  "Java",
+  "C++",
+  "JavaScript",
+  "TypeScript",
+  "TensorFlow",
+  "PyTorch",
+  "Deep Learning",
+  "Statistics",
+  "R",
+  "AWS",
+  "Docker",
+  "Kubernetes",
+  "Node.js",
+  "MongoDB",
+  "PostgreSQL",
+  "Pandas",
+  "NumPy",
+  "Scikit-learn",
+  "FastAPI",
+  "LLMs",
+  "RAG",
+] as const;
+
+export const ROLE_TYPE_OPTIONS = [
+  { value: "all" as const, label: "Any role" },
+  { value: "intern" as const, label: "Intern" },
+  { value: "new_grad" as const, label: "New grad" },
+  { value: "experienced" as const, label: "Experienced" },
+];
